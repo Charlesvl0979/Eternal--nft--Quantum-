@@ -1,0 +1,31 @@
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0f0f0f;
+    color: white;
+}
+header, footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #1a1a1a;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2em;
+}
+.nft-card {
+    background-color: #222;
+    border: 1px solid #444;
+    margin: 1em;
+    padding: 1em;
+    width: 250px;
+    text-align: center;
+}
+.nft-card img {
+    max-width: 100%;
+    height: auto;
+}
